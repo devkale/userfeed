@@ -3,7 +3,7 @@ Paths to relevant files
 	-Controllers
 		- Feedcontroller.cs
 		- postcontroller.cs
-	-constants.cs
+	- constants.cs
 - FollowFeedBAL
 	- FeedLogic.cs
 	- PostLogic.cs
