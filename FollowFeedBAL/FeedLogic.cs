@@ -16,9 +16,9 @@ namespace FollowFeedBAL
         {
             this.feeddataAccess = new FeedDataAccess();
         }
-        public IList<Post> GetFeed(string userid)
+        public IEnumerable<Post> GetFeed(string userid)
         {
-            return new List<Post>();
+            return feeddataAccess.GetFeed(userid);
         }
     }
 }

@@ -8,6 +8,6 @@ namespace FollowFeedDAL
 {
     public interface IFeedDataAccess
     {
-        IList<Post> GetFeed(string userid);
+        IEnumerable<Post> GetFeed(string userid);
     }
 }

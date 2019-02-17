@@ -8,6 +8,6 @@ namespace FollowFeedBAL
 {
     public interface IFeedLogic
     {
-        IList<Post> GetFeed(string userid);
+        IEnumerable<Post> GetFeed(string userid);
     }
 }

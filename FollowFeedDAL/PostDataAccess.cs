@@ -9,7 +9,7 @@ namespace FollowFeedDAL
 {
     public class PostDataAccess : IPostDataAccess
     {
-        private static List<Post> posts = new List<Post>();
+        public static List<Post> posts = new List<Post>();
 
         public IList<Post> GetPosts()
         {
