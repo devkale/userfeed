@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/FollowFeed/bin
+/FollowFeed/obj/Debug
+/FollowFeed/FollowFeed.csproj.user
+/FollowFeed.Models/bin/Debug
+/FollowFeed.Models/obj/Debug
+/FollowFeedBAL/obj/Debug
+/FollowFeedBAL/bin/Debug
+/FollowFeedDAL/obj/Debug
+/FollowFeedDAL/bin/Debug
+/packages
