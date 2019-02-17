@@ -1,6 +1,6 @@
 Paths to relevant files
 - FollowFeed
-	-Controllers
+	- Controllers
 		- Feedcontroller.cs
 		- postcontroller.cs
 	- constants.cs
