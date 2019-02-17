@@ -1,1 +1,19 @@
-
+Paths to relevant files
+- FollowFeed
+	-Controllers
+		- Feedcontroller.cs
+		- postcontroller.cs
+	-constants.cs
+- FollowFeedBAL
+	- FeedLogic.cs
+	- PostLogic.cs
+	- IFeedLogic.cs
+	- IPostLogic.cs
+- FollowFeedDAL
+	- FeedDataAccess.cs
+	- PostDataAccess
+	- IFeedDataAccess.cs
+	- IPostDataAccess
+- FollowFeedModels
+	- FollowRelation.cs
+	- Post.cs
