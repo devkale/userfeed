@@ -16,11 +16,11 @@ namespace FollowFeedDAL
 
         public IEnumerable<Post> GetFeed(string userid)
         {
-            var a = from f in followRelation
+            var a = (from f in followRelation
                     join p in PostDataAccess.posts on f.FolloweeId equals p.UserId
                     where f.FollowerId == userid
                     orderby p.PostsedAt descending
-                    select p;
+                    select p).Take(100);
             return a;
         }
     }
